@@ -8,76 +8,42 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#plant-friend {
-    width: 80%;
+.textalign {
+    text-align: center;
+
 }
 
-#scissors,
-#water,
-#food {
- display: none;
+.title-large-text {
+    text-align: center;
 }
 
-#plant path {
-    transition: 2s;
+.adjust {
+    padding-bottom: 150px;
 }
 
-
-/* SVG Styles */
-
-.cls-1 {
-    stroke-dasharray: 0 0 20.05 20.05;
+h1 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 32px;
 }
 
-.cls-1,
-.cls-2,
-.cls-3,
-.cls-4,
-.cls-5,
-.cls-6 {
-    fill: none;
-    stroke: #fbc900;
-    stroke-linecap: round;
-    stroke-miterlimit: 10;
-    stroke-width: 5px;
+p {
+    text-align: left;
+    font-size: 16px;
+    padding-top: 15px;
+
 }
 
-.cls-2 {
-    stroke-dasharray: 0 0 21.9 21.9;
+.button {
+    text-align: left;
+    color: black;
+    font-size: larger;
 }
 
-.cls-7 {
-    fill: #eabca0;
+.button-fill {
+    background-color: grey;
 }
 
-.cls-8 {
-    fill: #b6dbff;
-}
-
-.cls-9 {
-    fill: #df986d;
-}
-
-.cls-10 {
-    fill: #1bb0b1;
-}
-
-.cls-11 {
-    fill: #568b62;
-}
-
-.cls-12 {
-    fill: #764b00;
-}
-
-.cls-3 {
-    stroke-dasharray: 0 0 20.55 20.55;
-}
-
-.cls-4 {
-    stroke-dasharray: 0 0 19.4 19.4;
-}
-
-.cls-5 {
-    stroke-dasharray: 0 0 18.06 18.06;
+.shift {
+    padding-top: 45px;
 }
