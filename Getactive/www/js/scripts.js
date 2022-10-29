@@ -142,9 +142,9 @@ var app = new Framework7({
         </div>
           <div class="page-content">
             <div class="adjust">
-              <h1 class = "textalign"> Lift up a desk !</h1>
-              <img src="img/desk.jpg" alt="lift desk" height = "300" width = "300">
-              <p>The following would help to build muscle and <br> improve strength throughout the upper <br> and lower body.</p>
+              <h1 class = "textalign"> Go for a run !</h1>
+              <img src="img/run.gif" alt="run" height = "300" width = "300">
+              <p>The following helps strengthen lungs and <br> bronchi.</p>
               <div class = "shift"> 
               <a class= "button button-round button-fill">More Information</a></div>
             </div>
@@ -165,9 +165,9 @@ var app = new Framework7({
         </div>
           <div class="page-content">
             <div class="adjust">
-              <h1 class = "textalign"> Do 50 Pushs Up </h1>
-              <img src="img/pushup.jpg" alt="push ups" height = "300" width = "300">
-              <p>The following would help to build muscle and <br> improve strength throughout the upper body</p>
+              <h1 class = "textalign"> Go for a hike !</h1>
+              <img src="img/hike.jpeg" alt="hike" height = "300" width = "300">
+              <p>The following would help in building stronger <br> muscles and bones. Also improve your sense<br> of balance</p>
               <div class = "shift"> 
               <a class= "button button-round button-fill">More Information</a></div>
             </div>
@@ -188,9 +188,9 @@ var app = new Framework7({
         </div>
           <div class="page-content">
             <div class="adjust">
-              <h1 class = "textalign"> Go do lunges !</h1>
-              <img src="img/lunges.jpeg" alt="lunges" height = "300" width = "300">
-              <p>The following would help increase muscle mass <br> and tone your lower body focusing on your <br> glutes, legs and core. </p>
+              <h1 class = "textalign"> Go for a bike ride </h1>
+              <img src="img/biking.jpg" alt="lunges" height = "300" width = "300">
+              <p>The following would improve your overall lower<br> body function and tone your lower body. </p>
               <div class = "shift"> 
               <a class= "button button-round button-fill">More Information</a></div>
             </div>
@@ -212,9 +212,9 @@ var app = new Framework7({
         </div>
           <div class="page-content">
             <div class="adjust">
-              <h1 class = "textalign"> Do a 2 min wall squat!</h1>
-              <img src="img/wallsquat.jpg" alt="wall squat" height = "300" width = "300">
-              <p>The following would help strenghten your legs <br> and tone your lower body focusing on your <br> glutes and legs. </p>
+              <h1 class = "textalign"> Go kick a soccer ball </h1>
+              <img src="img/soccer.jpeg" alt="soccer ball" height = "300" width = "300">
+              <p>The following would increases aerobic<br> capacity and cardiovascular health.</p>
               <div class = "shift"> 
               <a class= "button button-round button-fill">More Information</a></div>
             </div>
@@ -237,9 +237,9 @@ var app = new Framework7({
         </div>
           <div class="page-content">
             <div class="adjust">
-              <h1 class = "textalign"> Do 50 jumping jacks</h1>
-              <img src="img/jumping.jpg" alt="jumping jacks" height = "300" width = "300">
-              <p>The following would increase your heart rate <br> and endurance as well as burn some calories</p>
+              <h1 class = "textalign">Go kayaking</h1>
+              <img src="img/kayaking.jpg" alt="kayaking" height = "300" width = "300">
+              <p>The following would improved cardiovascular<br> fitness and strengthen upper body. </p>
               <div class = "shift"> 
               <a class= "button button-round button-fill">More Information</a></div>
             </div>
