@@ -47,3 +47,8 @@ p {
 .shift {
     padding-top: 45px;
 }
+
+.material-icons.modify { 
+    font-size: 248px; 
+    color: darkblue;
+}
