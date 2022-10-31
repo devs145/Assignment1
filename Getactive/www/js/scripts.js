@@ -259,23 +259,24 @@ $(document).on('page:init',function(e) {
 
   
 $("#test3").on("click", function() {
-  var outdoor = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/", 
+  var mixed = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/", 
                 "/outdoor1/", "/outdoor2/", "/outdoor3/", "/outdoor4/", "/outdoor5/"]
-  var indexnum = Math.floor((Math.random()  * outdoor.length));
-  console.log(outdoor[indexnum]);
+  var indexnum = Math.floor((Math.random()  * mixed.length));
+  console.log(mixed[indexnum]);
   var link = document.getElementById('test3')
-  link.setAttribute("href", outdoor[indexnum])
-  // $("#plant-quote").text(indoor[indexnum]);
+  link.setAttribute("href", mixed[indexnum])
+   //$("#test3").text([indexnum]);
 })
 
-$("#test").on("click", function() {
+function pickpage() {
   var indoor = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/"]
   var indexnum = Math.floor((Math.random()  * indoor.length));
   console.log(indoor[indexnum]);
   var link = document.getElementById('test')
   link.setAttribute("href", indoor[indexnum])
-  // $("#plant-quote").text(indoor[indexnum]);
-})
+}
+
+pickpage();
 
 $("#test2").on("click", function() {
   var outdoor = ["/outdoor1/", "/outdoor2/", "/outdoor3/", "/outdoor4/", "/outdoor5/"]
@@ -285,6 +286,4 @@ $("#test2").on("click", function() {
   link.setAttribute("href", outdoor[indexnum])
   // $("#plant-quote").text(indoor[indexnum]);
 })
-
-
 })
