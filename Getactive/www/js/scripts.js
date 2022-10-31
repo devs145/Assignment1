@@ -257,7 +257,7 @@ var mainView = app.views.create('.view-main')
 
 $(document).on('page:init',function(e) {
 
-  
+  /*
 function mixed() {
   var mixed = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/", 
                 "/outdoor1/", "/outdoor2/", "/outdoor3/", "/outdoor4/", "/outdoor5/"]
@@ -266,25 +266,38 @@ function mixed() {
   var link = document.getElementById('test3')
   link.setAttribute("href", mixed[indexnum])
 }
-
-mixed();
+*/
+//mixed();
 
 function pickpage() {
   var indoor = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/"]
   var indexnum = Math.floor((Math.random()  * indoor.length));
   console.log(indoor[indexnum]);
-  var link = document.getElementById('test')
-  link.setAttribute("href", indoor[indexnum])
+  var link1 = document.getElementById('test')
+  link1.setAttribute("href", indoor[indexnum])
 }
 
 pickpage();
 
-$("#test2").on("click", function() {
+function pickpage2() {
   var outdoor = ["/outdoor1/", "/outdoor2/", "/outdoor3/", "/outdoor4/", "/outdoor5/"]
   var indexnum = Math.floor((Math.random()  * outdoor.length));
   console.log(outdoor[indexnum]);
-  var link = document.getElementById('test2')
-  link.setAttribute("href", outdoor[indexnum])
-  // $("#plant-quote").text(indoor[indexnum]);
+  var link2 = document.getElementById('test2')
+  link2.setAttribute("href", outdoor[indexnum])
+}
+pickpage2();
+
+function pickpage3(){
+  var mixed = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/", 
+  "/outdoor1/", "/outdoor2/", "/outdoor3/", "/outdoor4/", "/outdoor5/"]
+  var indexnum = Math.floor((Math.random()  * mixed.length));
+  console.log(mixed[indexnum]);
+  var link3 = document.getElementById('redeem')
+  console.log(link3)
+  link3.setAttribute("href", mixed[indexnum])
+}
+pickpage3();
 })
-})
+
+
