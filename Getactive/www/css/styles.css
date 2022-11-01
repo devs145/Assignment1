@@ -4,17 +4,18 @@
     align-items: center;
 }
 
-.title-large {
+body {
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
 .textalign {
     text-align: center;
-
 }
 
 .title-large-text {
     text-align: center;
+    font-size: 32px;
 }
 
 .adjust {
@@ -54,5 +55,5 @@ p {
 
 .material-icons.modify { 
     font-size: 248px; 
-    color: darkblue;
+    color: linear-gradient(90deg, rgba(6,3,13,1) 0%, rgba(22,195,223,1) 60%, rgba(25,20,91,1) 100%);
 }

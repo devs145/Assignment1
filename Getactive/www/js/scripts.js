@@ -12,6 +12,12 @@ var app = new Framework7({
       url: 'pages/categories.html',
     },
     {
+      path: '/info/',
+      url: 'pages/info.html',
+    },
+    
+
+    {
       path: '/indoor1/',
       content: `
         <div class="page">
@@ -82,6 +88,7 @@ var app = new Framework7({
     },
 
 
+
     {
       path: '/indoor4/',
       content: `
@@ -94,9 +101,9 @@ var app = new Framework7({
         </div>
           <div class="page-content">
             <div class="adjust">
-              <h1 class = "textalign"> Do a wall squat!</h1>
-              <img src="wallsquat2.jpg" alt="wallsquat2" height = "300" width = "300">
-              <p>The following would help strenghten your legs and tone your lower body focusing<br> on your glutes and legs.</p>
+              <h1 class = "textalign"> Do a wall squat !</h1>
+              <img src="img/wallsquat2.jpg" alt="wallsquat" height = "300" width = "300">
+              <p>The following would help strenghten<br> your legs and tone your lower body<br> focusing on your glutes and legs.</p>
               <div class = "shift"> 
               <a href="https://www.masterclass.com/articles/wall-squat-guide" class="button button-round button-fill link external">More Information</a>
             </div>
@@ -105,7 +112,7 @@ var app = new Framework7({
       </div>
       `,
     },
-    
+
     {
       path: '/indoor5/',
       content: `
@@ -281,8 +288,7 @@ function pickpage3(){
   "/outdoor1/", "/outdoor2/", "/outdoor3/", "/outdoor4/", "/outdoor5/"]
   var indexnum = Math.floor((Math.random()  * mixed.length));
   console.log(mixed[indexnum]);
-  var link3 = document.getElementById('redeem')
-  console.log(link3)
+  var link3 = document.getElementById('test3')
   link3.setAttribute("href", mixed[indexnum])
 }
 pickpage3();
