@@ -257,18 +257,6 @@ var mainView = app.views.create('.view-main')
 
 $(document).on('page:init',function(e) {
 
-  /*
-function mixed() {
-  var mixed = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/", 
-                "/outdoor1/", "/outdoor2/", "/outdoor3/", "/outdoor4/", "/outdoor5/"]
-  var indexnum = Math.floor((Math.random()  * mixed.length));
-  console.log(mixed[indexnum]);
-  var link = document.getElementById('test3')
-  link.setAttribute("href", mixed[indexnum])
-}
-*/
-//mixed();
-
 function pickpage() {
   var indoor = ["/indoor1/", "/indoor2/", "/indoor3/", "/indoor4/", "/indoor5/"]
   var indexnum = Math.floor((Math.random()  * indoor.length));
