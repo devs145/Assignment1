@@ -25,9 +25,9 @@ var app = new Framework7({
             <div class="adjust">
               <h1 class = "textalign"> Lift up a desk !</h1>
               <img src="img/desk.jpg" alt="lift desk" height = "300" width = "300">
-              <p>The following would help to build muscle and <br> improve strength throughout the upper <br> and lower body.</p>
+              <p>The following would help to build muscle <br> and improve strength throughout the <br> upper and lower body.</p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/strength-training/art-20046670#:~:text=Strength%20training%20can%20help%20you%20manage%20or%20lose%20weight%2C%20and,protect%20your%20joints%20from%20injury." class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
@@ -48,9 +48,9 @@ var app = new Framework7({
             <div class="adjust">
               <h1 class = "textalign"> Do 50 Pushs Up </h1>
               <img src="img/pushup.jpg" alt="push ups" height = "300" width = "300">
-              <p>The following would help to build muscle and <br> improve strength throughout the upper body</p>
+              <p>The following would help to build muscle <br>and improve strength throughout<br> the upper body.</p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.healthline.com/health/fitness-exercise/pushups-everyday#:~:text=Traditional%20pushups%20are%20beneficial%20for,effective%20exercise%20for%20building%20strength." class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
@@ -71,15 +71,16 @@ var app = new Framework7({
             <div class="adjust">
               <h1 class = "textalign"> Go do lunges !</h1>
               <img src="img/lunges.jpeg" alt="lunges" height = "300" width = "300">
-              <p>The following would help increase muscle mass <br> and tone your lower body focusing on your <br> glutes, legs and core. </p>
+              <p>The following would help increase muscle <br> mass and tone your lower body focusing <br> on your glutes, legs and core. </p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://pharmeasy.in/blog/7-health-benefits-of-lunges/#:~:text=Lunges%20are%20a%20powerful%20exercise,buttocks%20you%20always%20hoped%20for." class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
       </div>
       `,
     },
+
 
     {
       path: '/indoor4/',
@@ -93,18 +94,17 @@ var app = new Framework7({
         </div>
           <div class="page-content">
             <div class="adjust">
-              <h1 class = "textalign"> Do a 2 min wall squat!</h1>
-              <img src="img/wallsquat.jpg" alt="wall squat" height = "300" width = "300">
-              <p>The following would help strenghten your legs <br> and tone your lower body focusing on your <br> glutes and legs. </p>
+              <h1 class = "textalign"> Do a wall squat!</h1>
+              <img src="wallsquat2.jpg" alt="wallsquat2" height = "300" width = "300">
+              <p>The following would help strenghten your legs and tone your lower body focusing<br> on your glutes and legs.</p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.masterclass.com/articles/wall-squat-guide" class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
       </div>
       `,
     },
-
     
     {
       path: '/indoor5/',
@@ -120,9 +120,9 @@ var app = new Framework7({
             <div class="adjust">
               <h1 class = "textalign"> Do 50 jumping jacks</h1>
               <img src="img/jumping.jpg" alt="jumping jacks" height = "300" width = "300">
-              <p>The following would increase your heart rate <br> and endurance as well as burn some calories</p>
+              <p>The following would increase your heart<br> rate and endurance as well as burn <br> some calories</p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.insider.com/guides/health/fitness/jumping-jacks-benefits" class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
@@ -146,7 +146,7 @@ var app = new Framework7({
               <img src="img/run.gif" alt="run" height = "300" width = "300">
               <p>The following helps strengthen lungs and <br> bronchi.</p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.topendsports.com/sport/list/running.htm" class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
@@ -169,7 +169,7 @@ var app = new Framework7({
               <img src="img/hike.jpeg" alt="hike" height = "300" width = "300">
               <p>The following would help in building stronger <br> muscles and bones. Also improve your sense<br> of balance</p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://bearfoottheory.com/benefits-of-hiking/" class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
@@ -192,7 +192,7 @@ var app = new Framework7({
               <img src="img/biking.jpg" alt="lunges" height = "300" width = "300">
               <p>The following would improve your overall lower<br> body function and tone your lower body. </p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/cycling-health-benefits" class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
@@ -216,7 +216,7 @@ var app = new Framework7({
               <img src="img/soccer.jpeg" alt="soccer ball" height = "300" width = "300">
               <p>The following would increases aerobic<br> capacity and cardiovascular health.</p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/soccer-health-benefits" class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
@@ -241,7 +241,7 @@ var app = new Framework7({
               <img src="img/kayaking.jpg" alt="kayaking" height = "300" width = "300">
               <p>The following would improved cardiovascular<br> fitness and strengthen upper body. </p>
               <div class = "shift"> 
-              <a class= "button button-round button-fill">More Information</a></div>
+              <a href="https://www.blazinpaddles.com/fuel-for-the-soul-physical-and-mental-health-benefits-of-kayaking/" class="button button-round button-fill link external">More Information</a>
             </div>
           </div>    
         </div>
