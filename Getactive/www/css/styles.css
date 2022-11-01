@@ -57,3 +57,17 @@ p {
     font-size: 248px; 
     color: linear-gradient(90deg, rgba(6,3,13,1) 0%, rgba(22,195,223,1) 60%, rgba(25,20,91,1) 100%);
 }
+
+.infotext {
+    text-align: center;
+}
+
+.resource {
+    font-size: 21px;
+    text-align: center;
+}
+
+.linkinfo {
+    font-size: 10px;
+    text-align: center;
+}

@@ -24,7 +24,7 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
@@ -47,7 +47,7 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
@@ -70,7 +70,7 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
@@ -96,7 +96,7 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
@@ -120,7 +120,7 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
@@ -144,7 +144,7 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
@@ -167,14 +167,14 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
             <div class="adjust">
               <h1 class = "textalign"> Go for a hike !</h1>
               <img src="img/hike.jpeg" alt="hike" height = "300" width = "300">
-              <p>The following would help in building stronger <br> muscles and bones. Also improve your sense<br> of balance</p>
+              <p>The following would help in building<br> stronger muscles and bones. Also<br>improve your sense of balance</p>
               <div class = "shift"> 
               <a href="https://bearfoottheory.com/benefits-of-hiking/" class="button button-round button-fill link external">More Information</a>
             </div>
@@ -190,14 +190,14 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
             <div class="adjust">
               <h1 class = "textalign"> Go for a bike ride </h1>
               <img src="img/biking.jpg" alt="lunges" height = "300" width = "300">
-              <p>The following would improve your overall lower<br> body function and tone your lower body. </p>
+              <p>The following would improve your overall<br> lower body function and tone your<br> lower body. </p>
               <div class = "shift"> 
               <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/cycling-health-benefits" class="button button-round button-fill link external">More Information</a>
             </div>
@@ -214,7 +214,7 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
@@ -239,14 +239,14 @@ var app = new Framework7({
         <div class="toolbar tabbar toolbar-bottom no-shadow">
           <div class="toolbar-inner">
             <a href="/#/" class="link" id="home"><i class="icon material-icons">home</i></a>
-            <a href="/categories/" class="link" id="category"><i class="icon material-icons">category</i></a>
+            <a href="/categories/" class="link" id="undo"><i class="icon material-icons">undo</i></a>
           </div>
         </div>
           <div class="page-content">
             <div class="adjust">
               <h1 class = "textalign">Go kayaking</h1>
               <img src="img/kayaking.jpg" alt="kayaking" height = "300" width = "300">
-              <p>The following would improved cardiovascular<br> fitness and strengthen upper body. </p>
+              <p>The following would improved <br>cardiovascular fitness and strengthen<br> upper body. </p>
               <div class = "shift"> 
               <a href="https://www.blazinpaddles.com/fuel-for-the-soul-physical-and-mental-health-benefits-of-kayaking/" class="button button-round button-fill link external">More Information</a>
             </div>
